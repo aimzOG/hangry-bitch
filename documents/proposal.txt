@@ -1,0 +1,6 @@
+Project: Recipe Site. This will consist of pictures and recipes of a variety of dishes to make- somewhat of a food blog as tips, observations, and 'reports' will be included.
+
+API: https://developer.edamam.com/edamam-nutrition-api-demo. This analyzes recipe ingredients to provide nutritional information based on recommended suggestions.
+
+Objective: To share recipes and tips while keeping users in the know of nutritional value. I personally cook a lot and many friends ask how I did xyz- many have dietary restrictions too weather it be allergies or for voluntary diet.
+
