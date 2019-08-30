@@ -1,72 +1,94 @@
 <template>
-  <div class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        hangry-bitch
-      </h1>
-      <h2 class="subtitle">
-        hangry-bitch is a recipe site
-      </h2>
-      <div class="links">
+  <div class="hello">
+    <Headers v-slot:header>
+      {{ titleA }}
+      <br />
+      {{ titleB }}
+    </Headers>
+    <b-carousel
+      id="carousel-fade"
+      style="text-shadow: 0px 0px 2px #000"
+      fade
+      indicators
+      controls
+      img-width="1024"
+      img-height="480"
+    >
+      <b-carousel-slide
+        v-for="image in carousel"
+        :key="image.src"
+        :caption="image.caption"
+        :text="image.text"
+        :img-src="image.src"
+      />
+    </b-carousel>
+    <!-- jumbotron -->
+    <div class="jumbotron">
+      <h1 class="display-4">{{ jumbotron.title }}</h1>
+      <p class="lead" />
+      <hr class="my-4" />
+      <p>{{ jumbotron.text }}</p>
+      <p class="lead">
+        <!-- includes tool tip -->
         <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
+          class="btn btn-primary btn-lg"
+          href="#"
+          role="button"
+          data-toggle="tooltip"
+          data-placement="bottom"
+          title="Click to go to submission page"
         >
-          Documentation
+          Submit My
+          Recipe!
         </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+      </p>
     </div>
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+// @ is an alias to /src
+import Headers from "@/components/Headers.vue";
+import homeCutlery from "@/assets/img/home-cutlery.jpg";
+import homeFood from "@/assets/img/home-food.jpg";
+import homeDrink from "@/assets/img/home-drink.jpg";
 
 export default {
+  name: "Home",
   components: {
-    Logo
-  }
-}
+    Headers
+  },
+  data: () => ({
+    titleA: "Hangry",
+    titleB: "Bitch.",
+    jumbotron: {
+      title: "Get featured on Hangry Bitch!",
+      text:
+        "Have a delicious creation you'd like to share? Submit your recipe and a picture using the button below and we'll feature your concotion on our site!"
+    },
+    carousel: [
+      {
+        src: homeCutlery,
+        caption: "",
+        text: "",
+        position: ""
+      },
+      {
+        src: homeFood,
+        caption: "Noms",
+        text: "Food is love, love is food",
+        position: "text-left"
+      },
+      {
+        src: homeDrink,
+        caption: "Sippin's",
+        text: "Good for the soul",
+        position: "text-right"
+      }
+    ]
+  })
+};
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
 </style>
