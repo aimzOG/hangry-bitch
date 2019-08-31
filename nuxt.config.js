@@ -45,8 +45,14 @@ export default {
     'bootstrap-vue/nuxt',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    'nuxt-webfontloader'
   ],
+  webfontloader: {
+    google: {
+      families: ['Rock Salt:400,700', 'Permanaent Marker:400,700'] // Loads Lato & Inconsolata fonts with weights 400 and 700
+    }
+  },
   /*
   ** Axios module configuration
   ** See https://axios.nuxtjs.org/options
