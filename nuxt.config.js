@@ -50,7 +50,7 @@ export default {
   ],
   webfontloader: {
     google: {
-      families: ['Rock Salt:400,700', 'Permanaent Marker:400,700'] // Loads Lato & Inconsolata fonts with weights 400 and 700
+      families: ['Rock+Salt:400,700', 'Permanent+Marker:400,700'] // Loads Lato font with weights 400 and 700
     }
   },
   /*
