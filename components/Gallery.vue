@@ -1,22 +1,22 @@
 <template>
-  <div class='gallery'>
-    <div class='gallery-panel' v-for=' photo in photos' :key='photo.id'>
-      <!-- <router-link :to='`/photo/${photo.id}`'> PUT BACK FOR FINAL-->
-      <ImageTag
-        @click.native='() => updateSelected(photo.id)'
-        :border='isSelected(photo.id)'
-        :src='thumbUrl(photo.filename)'
-        :alt='photo.alt'
-        :title='photo.title'
-      />
-      <!-- </router-link> -->
+  <div class="gallery">
+    <div class="gallery-panel" v-for=" photo in photos" :key="photo.id">
+      <nuxt-link :to="{name: 'Photo', params: {id:photo.id}}">
+        <ImageTag
+          @click.native="() => updateSelected(photo.id)"
+          :border="isSelected(photo.id)"
+          :src="thumbUrl(photo.filename)"
+          :alt="photo.alt"
+          :title="photo.title"
+        />
+      </nuxt-link>
     </div>
   </div>
 </template>
 
 <script>
-import ImageTag from '@/components/ImageTag.vue';
-import photos from '@/assets/data/gallery.json';
+import ImageTag from "@/components/ImageTag.vue";
+import photos from "@/assets/data/gallery.json";
 
 const mixin = {
   data() {
@@ -36,7 +36,7 @@ const mixin = {
 };
 
 export default {
-  name: 'Gallery',
+  name: "Gallery",
   components: {
     ImageTag
   },

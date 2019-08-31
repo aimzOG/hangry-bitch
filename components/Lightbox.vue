@@ -1,18 +1,18 @@
 <template>
   <!-- enlarges selected picture and shows attached info -->
-  <div class='lightbox' @click.self='closeLightbox'>
-    <ImageTag :src='photoUrl(photo.filename)' :alt='photo.alt' :title='photo.title' />
-    <div class='lightbox-info'>
+  <div class="lightbox" @click.self="closeLightbox">
+    <ImageTag :src="photoUrl(photo.filename)" :alt="photo.alt" :title="photo.title" />
+    <div class="lightbox-info">
       <!-- if json holds this data, show when lightbox is activated -->
-      <div class='lightbox-info-inner'>
-        <p v-if='photo.title'>{{ photo.title }}</p>
-        <p v-if='photo.location'>{{ photo.location }}</p>
-        <p v-if='photo.photographer'>
-          <a rel='nofollow' :href='photo.photographer.url'>{{ photo.photographer.name }}</a>
+      <div class="lightbox-info-inner">
+        <p v-if="photo.title">{{ photo.title }}</p>
+        <p v-if="photo.location">{{ photo.location }}</p>
+        <p v-if="photo.chef">
+          <a rel="nofollow" :href="photo.chef.url">{{ photo.chef.name }}</a>
         </p>
-        <p v-if='photo.source'>
+        <p v-if="photo.source">
           via
-          <a rel='nofollow' :href='photo.source.url'>{{ photo.source.name }}</a>
+          <a rel="nofollow" :href="photo.source.url">{{ photo.source.name }}</a>
         </p>
       </div>
     </div>
@@ -20,10 +20,10 @@
 </template>
 
 <script>
-import ImageTag from '@/components/ImageTag.vue';
-import photos from '@/assets/data/gallery.json';
+import ImageTag from "@/components/ImageTag.vue";
+import photos from "@/assets/data/gallery.json";
 export default {
-  name: 'Lightbox',
+  name: "Lightbox",
   components: {
     ImageTag
   },
@@ -41,10 +41,10 @@ export default {
   },
   methods: {
     photoUrl(filename) {
-      return require(`../assets/img/gallery/${filename}`);
+      return require(`../assets/img/${filename}`);
     },
     closeLightbox() {
-      this.$router.push('/noms');
+      this.$router.push("/noms");
     }
   }
 };

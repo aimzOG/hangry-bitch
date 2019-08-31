@@ -7,14 +7,14 @@
 </template>
 
 <script>
-import Gallery from '@/components/Gallery.vue'
-import Lightbox from '@/components/Lightbox.vue'
+import Gallery from "@/components/Gallery.vue";
+import Lightbox from "@/components/Lightbox.vue";
 
 export default {
-  name: 'Photo',
+  name: "Photo",
   components: {
     Gallery,
     Lightbox
   }
-}
+};
 </script>
