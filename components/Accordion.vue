@@ -42,6 +42,6 @@ export default {
 
 <style>
 .accordion {
-  padding: 0 5rem;
+  padding: 0 2rem;
 }
 </style>

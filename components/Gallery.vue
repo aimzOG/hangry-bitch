@@ -1,7 +1,7 @@
 <template>
   <div class="gallery">
     <div class="gallery-panel" v-for=" photo in photos" :key="photo.id">
-      <nuxt-link :to="{name: 'Photo', params: {id:photo.id}}">
+      <nuxt-link :to="{name: 'Photo', query: { id: photo.id }}">
         <ImageTag
           @click.native="() => updateSelected(photo.id)"
           :border="isSelected(photo.id)"

@@ -2,117 +2,231 @@
     "id": 0,
     "title": "Blueberry Lemon Cake",
     "filename": "blueberry-lemon.jpg",
-    "alt": "bep-boop",
+    "alt": "Fresh baked blueberry lemon cake in cake pan.",
     "source": {
       "url": "@/assets/img/blueberry-lemon.jpg"
     },
     "chef": {
       "name": "Aimee Stevens",
       "url": "https://www.instagram.com/p/B1fkt5VnQca/"
+    },
+    "recipe": {
+      "yield": "10 slices",
+      "ingredients": [
+        "1/3 cup melted butter", "1 cup sugar", "5 Tbsp lemon juice", "2 eggs", "1 1/2 cups flour", "1 tsp baking powder", "pinch of salt", "1/2 cup milk", "1 cup blueberries", "2 Tbsp lemon zest"
+      ],
+      "instructions": ["Beat the butter, sugar, 3 Tbsp of lemon juice and eggs together in a bowl.", "Combine the flour, baking powder and salt in a separate bowl.", "Alternate between adding milk and dry mix into the egg mixture.", "Add blueberries and lemon zest.", "Transfer to a greased 8x4 loaf pan and bake for 60-70 minutes at 350deg", "Cool for 10 minutes and transfer cake from pan to a cooling rack", "combine remainign lemon juice and sugar to create the glaze; drizzle over cake and cool completey"],
+      "tips": [
+        ""
+      ]
     }
   },
   {
     "id": 1,
     "title": "Crab Ravioli",
     "filename": "crab-ravioli.jpg",
-    "alt": "bep-boop",
+    "alt": "Ravioli stuffed with crab and shrimp in a butter cream sauce topped with alaskan king crab and parmesean",
     "source": {
       "url": "@/assets/img/crab-ravioli.jpg"
     },
     "chef": {
       "name": "Aimee Stevens",
       "url": "https://www.instagram.com/p/BpL9j9YnT8A/"
+    },
+    "recipe": {
+      "servingsYield": "24 Ravioli",
+      "ingredients": ["1 1/2 cups flour", "4 large egg yolks", "1/2 tsp salt", "2 Tbsp water", "16 oz ricotta cheese", "1 cup crab", "1 lbs raw, deshelled, shrimp", "2 Tbsp butter", "3 minced garlic cloves", "1/2 cup parmesean", "1 tsp thyme", "2 Tbsp butter", "1 1/2 Tbsp flour", "1/4 tsp saffron", "2 shallots", "1 1/2 cups chicken stock", "3 minced garlic cloves", "1 cup dry white wine", "3/4 cup heavy cream", "1/2 cup crab", "1/4 cup parmesean cheese", "1 Tbsp parsley"],
+      "instructions": ["Prepare ricotta cheese.Refrigerate",
+        "On a clean surface, make a mound with flour and create a well in the middle for the eggs",
+        " Pour egg yolks into the well of flour, along with olive oil, salt and water",
+        "Gradually beat flour towards the middle until all flour is incorporated into eggs.Add up to 3 additional Tbsp of water if too dry",
+        "Knead dough for 10 minutes until dough is smooth and elastic",
+        "Wrap ball of dough in plastic.Rest 30 minute",
+        "Prepare filling while dough rests",
+        "Sautee shrimp with butter and garlic until cooked",
+        "After shimp is cooked, remove shrimp",
+        "Mix cooked butter and garlic with ricotta",
+        "Chop shrimp into 1/4inch pieces & mix with ricotta",
+        "Add all other filling ingredients and stir until mixed together",
+        "Cut dough in half",
+        "On floured surface, roll dough to make a thin sheet(about 1/16inch thick)",
+        "Cut rounds using a 3 - 4 inch cookie cutter or the top of a glass",
+        "Brush the edge of each round with reserved egg white",
+        "Fill each round with about 1 Tbsp heap of filling",
+        "Fold over and pinch shut, making sure the pasta is completely sealed",
+        "Bring 4 quarts of salted water to a boil",
+        "In a large pan, over med - hi heat, sautee butter, garlic and shallots 2 - 3 minute",
+        "Dust in 1 1 / 2 T flour to create a roux",
+        "Add wine and reduce 2 - 3 minutes",
+        "Add all remaining ingredients, cook 3 - 5 min until sauce is thickened & bubbly",
+        "Boil ravioli 3 - 5 minutes until done.Gently remove and add to sauce",
+        "Lightly toss ravioli in sauce until coated",
+        "Serve topped with fresh parmesan and parsley"
+      ],
+      "tips": [
+        ""
+      ]
     }
   },
   {
     "id": 2,
     "title": "Peach Pork Chop",
     "filename": "peach-pork.jpg",
-    "alt": "bep-boop",
+    "alt": "Balsamic glazed porkchop topped with grilled peaches; served with garlic baked brussel sprouts",
     "source": {
       "url": "@/assets/img/peach-pork.jpg"
     },
     "chef": {
       "name": "Aimee Stevens",
       "url": "https://www.instagram.com/p/BzQoIiYnaFw/"
+    },
+    "recipe": {
+      "yield": "4",
+      "ingredients": [
+        "1/3 cup melted butter", "1 cup sugar", "5 Tbsp lemon juice", "2 eggs", "1 1/2 cups flour", "1 tsp baking powder", "pinch of salt", "1/2 cup milk", "1 cup blueberries", "2 Tbsp lemon zest"
+      ],
+      "instructions": ["Beat the butter, sugar, 3 Tbsp of lemon juice and eggs together in a bowl.", "Combine the flour, baking powder and salt in a separate bowl.", "Alternate between adding milk and dry mix into the egg mixture.", "Add blueberries and lemon zest.", "Transfer to a greased 8x4 loaf pan and bake for 60-70 minutes at 350deg", "Cool for 10 minutes and transfer cake from pan to a cooling rack", "combine remainign lemon juice and sugar to create the glaze; drizzle over cake and cool completey"],
+      "tips": [
+        ""
+      ]
     }
   },
   {
     "id": 3,
     "title": "Burnt Tips",
     "filename": "burnt-tips.jpg",
-    "alt": "bep-boop",
+    "alt": "Prepped and seasoned pork belly in a castiron pan",
     "source": {
       "url": "@/assets/img/burnt-tips.jpg"
     },
     "chef": {
       "name": "Aimee Stevens",
       "url": "https://www.instagram.com/p/Bzo88RCHUT4/"
+    },
+    "recipe": {
+      "yield": "10",
+      "ingredients": [
+        "1/3 cup melted butter", "1 cup sugar", "5 Tbsp lemon juice", "2 eggs", "1 1/2 cups flour", "1 tsp baking powder", "pinch of salt", "1/2 cup milk", "1 cup blueberries", "2 Tbsp lemon zest"
+      ],
+      "instructions": ["Beat the butter, sugar, 3 Tbsp of lemon juice and eggs together in a bowl.", "Combine the flour, baking powder and salt in a separate bowl.", "Alternate between adding milk and dry mix into the egg mixture.", "Add blueberries and lemon zest.", "Transfer to a greased 8x4 loaf pan and bake for 60-70 minutes at 350deg", "Cool for 10 minutes and transfer cake from pan to a cooling rack", "combine remainign lemon juice and sugar to create the glaze; drizzle over cake and cool completey"],
+      "tips": [
+        ""
+      ]
     }
   },
   {
     "id": 4,
     "title": "Étouffée",
     "filename": "etouffee.jpg",
-    "alt": "bep-boop",
+    "alt": "A colorful dish from Louisiana resembling a curry on top of white rice",
     "source": {
       "url": "@/assets/img/etouffee.jpg"
     },
     "chef": {
       "name": "Aimee Stevens",
       "url": "https://www.instagram.com/p/B1dOz9onB9g/"
+    },
+    "recipe": {
+      "yield": "6",
+      "ingredients": [
+        "1/3 cup melted butter", "1 cup sugar", "5 Tbsp lemon juice", "2 eggs", "1 1/2 cups flour", "1 tsp baking powder", "pinch of salt", "1/2 cup milk", "1 cup blueberries", "2 Tbsp lemon zest"
+      ],
+      "instructions": ["Beat the butter, sugar, 3 Tbsp of lemon juice and eggs together in a bowl.", "Combine the flour, baking powder and salt in a separate bowl.", "Alternate between adding milk and dry mix into the egg mixture.", "Add blueberries and lemon zest.", "Transfer to a greased 8x4 loaf pan and bake for 60-70 minutes at 350deg", "Cool for 10 minutes and transfer cake from pan to a cooling rack", "combine remainign lemon juice and sugar to create the glaze; drizzle over cake and cool completey"],
+      "tips": [
+        ""
+      ]
     }
   },
   {
     "id": 5,
     "title": "Mac & Cheese",
     "filename": "mac-n-cheese.jpg",
-    "alt": "bep-boop",
+    "alt": "Cavatappi (corkscrew noodle) in a beschamel sauce in a castiron skillet",
     "source": {
       "url": "@/assets/img/mac-n-cheese.jpg"
     },
     "chef": {
       "name": "Aimee Stevens",
       "url": "https://www.instagram.com/p/B09_dGenD_B/"
+    },
+    "recipe": {
+      "yield": "2",
+      "ingredients": [
+        "1/3 cup melted butter", "1 cup sugar", "5 Tbsp lemon juice", "2 eggs", "1 1/2 cups flour", "1 tsp baking powder", "pinch of salt", "1/2 cup milk", "1 cup blueberries", "2 Tbsp lemon zest"
+      ],
+      "instructions": ["Beat the butter, sugar, 3 Tbsp of lemon juice and eggs together in a bowl.", "Combine the flour, baking powder and salt in a separate bowl.", "Alternate between adding milk and dry mix into the egg mixture.", "Add blueberries and lemon zest.", "Transfer to a greased 8x4 loaf pan and bake for 60-70 minutes at 350deg", "Cool for 10 minutes and transfer cake from pan to a cooling rack", "combine remainign lemon juice and sugar to create the glaze; drizzle over cake and cool completey"],
+      "tips": [
+        ""
+      ]
     }
   },
   {
     "id": 6,
     "title": "Crab Eggs Benedict",
     "filename": "crab-benedict.jpg",
-    "alt": "bep-boop",
+    "alt": "Modified eggs benedict with sweet potato bun and the addition of Alaskan King Crab",
     "source": {
       "url": "@/assets/img/crab-benedict.jpg"
     },
     "chef": {
       "name": "Aimee Stevens",
       "url": "https://www.instagram.com/p/Bk8UaH3gTNz/"
+    },
+    "recipe": {
+      "yield": "1",
+      "ingredients": [
+        "1/3 cup melted butter", "1 cup sugar", "5 Tbsp lemon juice", "2 eggs", "1 1/2 cups flour", "1 tsp baking powder", "pinch of salt", "1/2 cup milk", "1 cup blueberries", "2 Tbsp lemon zest"
+      ],
+      "instructions": ["Beat the butter, sugar, 3 Tbsp of lemon juice and eggs together in a bowl.", "Combine the flour, baking powder and salt in a separate bowl.", "Alternate between adding milk and dry mix into the egg mixture.", "Add blueberries and lemon zest.", "Transfer to a greased 8x4 loaf pan and bake for 60-70 minutes at 350deg", "Cool for 10 minutes and transfer cake from pan to a cooling rack", "combine remainign lemon juice and sugar to create the glaze; drizzle over cake and cool completey"],
+      "tips": [
+        ""
+      ]
     }
   },
   {
     "id": 7,
-    "title": "Gaarlic Honey Salmon",
+    "title": "Garlic Honey Salmon",
     "filename": "salmon.jpg",
-    "alt": "bep-boop",
+    "alt": "Salmon filet cooked in soy honey garlic sauce atop israeli couscous",
     "source": {
       "url": "@/assets/img/salmon.jpg"
     },
     "chef": {
       "name": "Aimee Stevens",
       "url": "https://www.instagram.com/p/Bn5GSgpACWq/"
+    },
+    "recipe": {
+      "yield": "2",
+      "ingredients": [
+        "1/3 cup melted butter", "1 cup sugar", "5 Tbsp lemon juice", "2 eggs", "1 1/2 cups flour", "1 tsp baking powder", "pinch of salt", "1/2 cup milk", "1 cup blueberries", "2 Tbsp lemon zest"
+      ],
+      "instructions": ["Beat the butter, sugar, 3 Tbsp of lemon juice and eggs together in a bowl.", "Combine the flour, baking powder and salt in a separate bowl.", "Alternate between adding milk and dry mix into the egg mixture.", "Add blueberries and lemon zest.", "Transfer to a greased 8x4 loaf pan and bake for 60-70 minutes at 350deg", "Cool for 10 minutes and transfer cake from pan to a cooling rack", "combine remainign lemon juice and sugar to create the glaze; drizzle over cake and cool completey"],
+      "tips": [
+        ""
+      ]
     }
   },
   {
     "id": 8,
-    "title": "Bolognese",
+    "title": "Slow Cooked Bolognese",
     "filename": "bolo.jpg",
-    "alt": "bep-boop",
+    "alt": "Slow cooked beef bolognese wit parmeean",
     "source": {
       "url": "@/assets/img/bolo.jpg"
     },
     "chef": {
       "name": "Aimee Stevens",
       "url": "https://www.instagram.com/p/BwLb_ddHuee/"
+    },
+    "recipe": {
+      "yield": "6",
+      "ingredients": [
+        "1/3 cup melted butter", "1 cup sugar", "5 Tbsp lemon juice", "2 eggs", "1 1/2 cups flour", "1 tsp baking powder", "pinch of salt", "1/2 cup milk", "1 cup blueberries", "2 Tbsp lemon zest"
+      ],
+      "instructions": ["Beat the butter, sugar, 3 Tbsp of lemon juice and eggs together in a bowl.", "Combine the flour, baking powder and salt in a separate bowl.", "Alternate between adding milk and dry mix into the egg mixture.", "Add blueberries and lemon zest.", "Transfer to a greased 8x4 loaf pan and bake for 60-70 minutes at 350deg", "Cool for 10 minutes and transfer cake from pan to a cooling rack", "combine remainign lemon juice and sugar to create the glaze; drizzle over cake and cool completey"],
+      "tips": [
+        ""
+      ]
     }
   }
 ]

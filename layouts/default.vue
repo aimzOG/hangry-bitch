@@ -8,6 +8,7 @@
 <script>
 // imports nav only once
 import Nav from "@/components/Nav.vue";
+
 export default {
   name: "default",
   components: {
