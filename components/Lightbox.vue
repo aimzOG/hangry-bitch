@@ -8,7 +8,6 @@
         <div class="food-heading text-center">
           <h2 class="display 2" v-if="photo.title">{{ photo.title }}</h2>
           <h3 class="text-muted" v-if="photo.chef">
-            Author:
             <a rel="nofollow" :href="photo.chef.url">{{ photo.chef.name }}</a>
           </h3>
           <p v-if="photo.source">

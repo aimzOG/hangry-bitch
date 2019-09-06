@@ -1,10 +1,6 @@
 <template>
   <div class="hello">
-    <Headers v-slot:header>
-      {{ titleA }}
-      <br />
-      {{ titleB }}
-    </Headers>
+    <Headers v-slot:header>{{ title }}</Headers>
     <b-carousel
       id="carousel-fade"
       style="text-shadow: 0px 0px 2px #000"
@@ -59,8 +55,7 @@ export default {
     Headers
   },
   data: () => ({
-    titleA: "Hangry",
-    titleB: "Bitch.",
+    title: "Hangry Bitch.",
     jumbotron: {
       title: "Get featured on Hangry Bitch!",
       text:
@@ -86,7 +81,21 @@ export default {
         position: "text-right"
       }
     ]
-  })
+  }),
+
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: "description",
+          name: "description",
+          content: "My custom description"
+        }
+      ]
+    };
+  }
 };
 </script>
 
