@@ -16,7 +16,7 @@
         </div>
         <div class="recipe" v-if="photo.recipe">
           <div class="recipe__preview">
-            <ImageTag
+            <Gallery
               :src="photoUrl(photo.filename)"
               :alt="photo.alt"
               :title="photo.title"
@@ -53,14 +53,14 @@
 </template>
 
 <script>
-import ImageTag from "@/components/ImageTag.vue";
+import Gallery from "@/components/Gallery.vue";
 import photos from "@/assets/data/gallery.json";
 import Nutrition from "@/components/Nutrition.vue";
 
 export default {
   name: "Lightbox",
   components: {
-    ImageTag,
+    Gallery,
     Nutrition
   },
 
